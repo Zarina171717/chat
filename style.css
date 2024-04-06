@@ -8,4 +8,38 @@ body {
 }
 .imgbox img {
   width: 100%;
+}
+
+#jsDom {
+  padding-top: 100px;
+}
+#jsDom .chat {
+  background-color: #e8edff;
+  padding: 25px;
+  border-radius: 20px;
+}
+#jsDom .chat .message {
+  padding: 10px 10px 200px;
+  background-color: white;
+  border-radius: 20px;
+}
+#jsDom .chat .message .line {
+  color: white;
+  background-color: #7991e7;
+  border-radius: 20px;
+  padding: 10px;
+}
+#jsDom .chat .text {
+  background-color: #e8edff;
+  padding: 15px 100px;
+}
+#jsDom .chat .text input {
+  border-radius: 20px;
+}
+#jsDom .chat .text .btn {
+  color: white;
+  background-color: #7991e7;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
