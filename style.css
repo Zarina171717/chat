@@ -28,6 +28,7 @@ body {
   background-color: #7991e7;
   border-radius: 20px;
   padding: 10px;
+  display: inline-block;
 }
 #jsDom .chat .text {
   background-color: #e8edff;
