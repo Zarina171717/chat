@@ -19,9 +19,10 @@ body {
   border-radius: 20px;
 }
 #jsDom .chat .message {
-  padding: 10px 10px 200px;
+  padding: 10px;
   background-color: white;
   border-radius: 20px;
+  height: 250px;
 }
 #jsDom .chat .message .line {
   color: white;
@@ -29,6 +30,7 @@ body {
   border-radius: 20px;
   padding: 10px;
   display: inline-block;
+  margin-bottom: 5px;
 }
 #jsDom .chat .text {
   background-color: #e8edff;
@@ -37,7 +39,7 @@ body {
 #jsDom .chat .text input {
   border-radius: 20px;
 }
-#jsDom .chat .text .sent {
+#jsDom .chat .text .btn {
   color: white;
   background-color: #7991e7;
   border-radius: 20px;

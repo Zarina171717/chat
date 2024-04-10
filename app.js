@@ -1,7 +1,7 @@
 "use strict";
 $(document).ready(function () {
 
-    $("me").click(function (e) {
+    $("#me").click(function (e) {
         e.preventDefault();
         function myel(myclass = "") {
             if (!$.trim($("#inputme").val()) == "") {
@@ -22,12 +22,12 @@ $(document).ready(function () {
         $("#messageme").append(myel('class= "end"'));
         $("#inputme").val("");
 
-        document.querySelector("#messageme").scrollTo(0, document.querySelector("messageme").scrollHeight)
-        document.querySelector("#messageyou").scrollTo(0, document.querySelector("messageyou").scrollHeight)
+        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
+        document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
 
     });
 
-    $("you").click(function (e) {
+    $("#you").click(function (e) {
         e.preventDefault();
         function myel(myclass = "") {
             if (!$.trim($("#inputyou").val()) == "") {
@@ -48,8 +48,8 @@ $(document).ready(function () {
         $("#messageyou").append(myel('class= "end"'));
         $("#inputyou").val("");
 
-        document.querySelector("#messageme").scrollTo(0, document.querySelector("messageme").scrollHeight)
-        document.querySelector("#messageyou").scrollTo(0, document.querySelector("messageyou").scrollHeight)
+        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
+        document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
 
     });
 
