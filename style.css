@@ -37,7 +37,7 @@ body {
 #jsDom .chat .text input {
   border-radius: 20px;
 }
-#jsDom .chat .text .btn {
+#jsDom .chat .text .sent {
   color: white;
   background-color: #7991e7;
   border-radius: 20px;
