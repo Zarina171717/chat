@@ -23,6 +23,7 @@ body {
   background-color: white;
   border-radius: 20px;
   height: 250px;
+  overflow-y: scroll;
 }
 #jsDom .chat .message .end {
   text-align: end;
