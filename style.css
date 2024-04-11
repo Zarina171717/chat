@@ -19,11 +19,12 @@ body {
   border-radius: 20px;
 }
 #jsDom .chat .message {
+  border: 1px solid white;
   padding: 10px;
   background-color: white;
   border-radius: 20px;
   height: 250px;
-  overflow-y: scroll;
+  overflow: auto;
 }
 #jsDom .chat .message .end {
   text-align: end;
