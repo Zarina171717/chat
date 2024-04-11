@@ -24,6 +24,9 @@ body {
   border-radius: 20px;
   height: 250px;
 }
+#jsDom .chat .message .end {
+  text-align: end;
+}
 #jsDom .chat .message .line {
   color: white;
   background-color: #7991e7;
