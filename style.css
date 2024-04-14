@@ -39,7 +39,8 @@ body {
 }
 #jsDom .chat .text {
   background-color: #e8edff;
-  padding: 15px 100px;
+  margin-top: 20px;
+  text-align: center;
 }
 #jsDom .chat .text input {
   border-radius: 20px;
@@ -50,4 +51,19 @@ body {
   border-radius: 20px;
   padding: 5px 20px;
   margin-left: 10px;
+}
+#jsDom .rght {
+  margin-right: 20px;
+}
+#jsDom .lft {
+  margin-left: 20px;
+}
+@media (max-width: 768px) {
+  #jsDom .rght {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #jsDom .lft {
+    margin: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
