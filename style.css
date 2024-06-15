@@ -3,13 +3,6 @@ body {
   font-weight: 500;
 }
 
-.imgbox {
-  overflow: hidden;
-}
-.imgbox img {
-  width: 100%;
-}
-
 #jsDom {
   padding-top: 100px;
 }
@@ -25,6 +18,8 @@ body {
   border-radius: 20px;
   height: 250px;
   overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 #jsDom .chat .message .end {
   text-align: end;
@@ -36,6 +31,7 @@ body {
   padding: 10px;
   display: inline-block;
   margin-bottom: 5px;
+  max-width: 300px;
 }
 #jsDom .chat .text {
   background-color: #e8edff;
