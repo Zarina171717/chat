@@ -18,8 +18,6 @@ body {
   border-radius: 20px;
   height: 250px;
   overflow: auto;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 #jsDom .chat .message .end {
   text-align: end;
