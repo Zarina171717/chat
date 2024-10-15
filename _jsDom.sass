@@ -4,6 +4,7 @@
         background-color: #e8edff
         padding: 25px
         border-radius: 20px
+        width: 550px
         .message::-webkit-scrollbar
             display: none
         .message
@@ -40,9 +41,17 @@
     .lft
         margin-left: 20px
 
+    @media (max-width: 1200px)
+        .chat
+            width: 400px
+    @media (max-width: 992px)
+        .chat
+            width: 350px
+
     @media (max-width: 768px)
         .rght
             margin: auto
             margin-bottom: 20px
         .lft
             margin: auto
+    
